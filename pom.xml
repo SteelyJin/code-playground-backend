@@ -8,11 +8,19 @@
         <version>3.4.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+<<<<<<< HEAD
     <groupId>com.example</groupId>
     <artifactId>CodePlayground</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>CodePlayground</name>
     <description>CodePlayground</description>
+=======
+    <groupId>com.codeplayground</groupId>
+    <artifactId>backend</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>backend</name>
+    <description>backend</description>
+>>>>>>> 050b885 (Initialize Spring Boot backend project)
     <url/>
     <licenses>
         <license/>
@@ -40,6 +48,15 @@
         </dependency>
 
         <dependency>
+<<<<<<< HEAD
+=======
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+>>>>>>> 050b885 (Initialize Spring Boot backend project)
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
